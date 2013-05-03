@@ -1,0 +1,71 @@
+文件夹 PATH 列表
+卷序列号为 00000062 58B6:B799
+E:.
+│  filetree.txt
+│  index-async.html
+│  index.html
+│  karma.conf.js
+│  npm-debug.log
+│  README.md
+│  server.js
+│  
+├─css
+│      app.css
+│      bootstrap.css
+│      jquery-ui.css
+│      select2.css
+│      select2.png
+│      spinner.gif
+│      
+├─data
+│      data.json
+│      
+├─img
+├─js
+│      app.js
+│      directives.js
+│      filters.js
+│      services.js
+│      
+├─lib
+│  │  angular-ui.js
+│  │  bootstrap.js
+│  │  jquery-1.9.1.min.js
+│  │  jquery-ui.min.js
+│  │  select2.js
+│  │  
+│  ├─angular
+│  │      angular-cookies.js
+│  │      angular-cookies.min.js
+│  │      angular-loader.js
+│  │      angular-loader.min.js
+│  │      angular-mocks.js
+│  │      angular-resource.js
+│  │      angular-resource.min.js
+│  │      angular-sanitize.js
+│  │      angular-sanitize.min.js
+│  │      angular-scenario.js
+│  │      angular.js
+│  │      angular.min.js
+│  │      version.txt
+│  │      
+│  └─ng-grid
+│          ng-grid.debug.js
+│          ng-grid.js
+│          ng-grid.min.js
+│          
+├─pages
+│      directive-swiftList.html
+│      
+├─partials
+│      .gitignore
+│      partial1.html
+│      partial2.html
+│      
+└─test
+    ├─conf
+    │      swift-conf.js
+    │      
+    └─unit
+            directive-swiftlist.js
+            

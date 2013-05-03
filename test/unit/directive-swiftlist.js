@@ -1,15 +1,10 @@
-describe('Unit testing great quotes', function() {
+describe('Unit testing for swiftpath', function() {
     var $compile;
     var $rootScope;
  
-    // Load the myApp module, which contains the directive
     beforeEach( module('myApp'));
  
-    // Store references to $rootScope and $compile
-    // so they are available to all tests in this describe block
     beforeEach( inject(function(_$compile_, _$rootScope_){
-      // The injector unwraps the underscores (_) from around the parameter names when matching
-      console.log("aaaa" )
       $compile = _$compile_;
       $rootScope = _$rootScope_;
     }));
@@ -23,6 +18,20 @@ describe('Unit testing great quotes', function() {
             expect(element.children(".swift-path").length).toEqual(2);
 
         },100)
-
     });
+});
+
+discribe('Unit testing for swiftlist',function(){
+
+    var $compile;
+    var $rootScope;
+ 
+    beforeEach( module('myApp'));
+ 
+    beforeEach( inject(function(_$compile_, _$rootScope_){
+      $compile = _$compile_;
+      $rootScope = _$rootScope_;
+    }));
+
+
 });

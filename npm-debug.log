@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express3' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\zhengyu\AppData\Roaming\npm\package.json
+6 verbose read json C:\Users\zhengyu\AppData\Roaming\npm\package.json
+7 verbose cache add [ 'express3', null ]
+8 verbose cache add name=undefined spec="express3" args=["express3",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'express3',
+9 verbose parsed url   path: 'express3',
+9 verbose parsed url   href: 'express3' }
+10 silly lockFile 54ef0bae-express3 express3
+11 verbose lock express3 C:\Users\zhengyu\AppData\Roaming\npm-cache\54ef0bae-express3.lock
+12 silly lockFile 54ef0bae-express3 express3
+13 silly lockFile 54ef0bae-express3 express3
+14 verbose addNamed [ 'express3', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile b428b5ab-express3 express3@
+17 verbose lock express3@ C:\Users\zhengyu\AppData\Roaming\npm-cache\b428b5ab-express3.lock
+18 silly addNameRange { name: 'express3', range: '', hasData: false }
+19 verbose url raw express3
+20 verbose url resolving [ 'https://registry.npmjs.org/', './express3' ]
+21 verbose url resolved https://registry.npmjs.org/express3
+22 info trying registry request attempt 1 at 15:06:25
+23 http GET https://registry.npmjs.org/express3
+24 http 404 https://registry.npmjs.org/express3
+25 silly registry.get cb [ 404,
+25 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+25 silly registry.get     date: 'Fri, 03 May 2013 07:06:31 GMT',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'content-length': '52',
+25 silly registry.get     'cache-control': 'must-revalidate' } ]
+26 silly lockFile b428b5ab-express3 express3@
+27 silly lockFile b428b5ab-express3 express3@
+28 error 404 'express3' is not in the npm registry.
+28 error 404 You should bug the author to publish it
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, or http url, or git url.
+29 error System Windows_NT 6.2.9200
+30 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "express3"
+31 error cwd E:\work\projects\test
+32 error node -v v0.10.5
+33 error npm -v 1.2.18
+34 error code E404
+35 verbose exit [ 1, true ]

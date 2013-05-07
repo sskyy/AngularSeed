@@ -10,14 +10,19 @@ basePath = '';
 files = [
   JASMINE,
   JASMINE_ADAPTER,
-  'lib/jquery-1.9.1.min.js',
-  'lib/angular/angular.js',
-  'lib/angular/angular-loader.js',
-  'lib/angular/angular-mocks.js',
-  'lib/ng-grid/ng-grid.min.js',
+  '../../lib/jquery-1.7.1.min.js',
+  '../../lib/jquery-ui.min.js',
+  '../../lib/bootstrap.js',
+  '../../lib/angular/angular.js',
+  '../../lib/angular/angular-loader.js',
+  '../../lib/angular/angular-mocks.js',
+  '../../lib/angular-ui.js',
+  '../../lib/ng-grid/ng-grid.min.js',
+  '../../lib/select2.js',
+
   // 'lib/angular/angular-scenario.js',
-  'js/*.js',
-  'test/unit/*.js'
+  '../../js/*.js',
+  '../../test/unit/directive-swiftlist.js'
 ];
 
 

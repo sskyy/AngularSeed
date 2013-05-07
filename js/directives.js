@@ -8,7 +8,6 @@ angular.module("myApp.directives",['ui','ngGrid'])
 	return {
 		scope : true,
 		template : '<div><div ng-grid="gridOptions"></div></div>',
-		// template : '<div ng-repeat="file in files">{{file.name}}</div>',
 		compile : function(){
 			return {
 				pre : function( $scope, $ele, $attr ){
@@ -31,11 +30,11 @@ angular.module("myApp.directives",['ui','ngGrid'])
 						if( data === undefined ){
 							return;
 						}
-						console.log("ng-grid get the data ", data )
+						// console.log("ng-grid get the data ", data )
 						$scope[options.data]  = $scope.$parent[options.data]
 					})
 
-					console.log( $scope, options)
+					// console.log( $scope, options)
 				}
 			}
 
@@ -65,9 +64,6 @@ angular.module("myApp.directives",['ui','ngGrid'])
 					$scope.paths = [];
 				}
 
-				if( !("files" in $scope ) ){
-					$scope.files = [];
-				}
 
 				if( $scope.paths.length === 0 ){
 					$scope.paths.push( path );
@@ -80,14 +76,14 @@ angular.module("myApp.directives",['ui','ngGrid'])
 
 				$scope.$emit( fileGetEvent, path, function( files ){
 					$scope.files = angular.copy( files )
-					console.log("file got!", files );
+					// console.log("file got!", files );
 				})
 	      
 			}
 
 			//using $scope even
 			$scope.$on(pathChangeEvent, function( $event, path){
-	  			console.log("test1 path change heppend, path:", path)
+	  			// console.log("test1 path change heppend, path:", path)
 				$scope.changePath( path )
 			})
     
@@ -198,7 +194,7 @@ angular.module("myApp.directives",['ui','ngGrid'])
 		        if( files === undefined ){
 		        	return ;
 		      	}
-				console.log( "files changed",files, oldFiles, arguments  )
+				// console.log( "files changed",files, oldFiles, arguments  )
 				var folders = filterForFolder( files );
 				var lastPath = $scope.paths[$scope.paths.length-1];
 
